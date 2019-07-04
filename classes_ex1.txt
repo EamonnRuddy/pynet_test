@@ -1,0 +1,16 @@
+
+
+class network_device:
+    def __init__(self, ip_addr, username, password, serial_number, model, vendor, uptime, os_version)
+        self.ip_addr = ip_addr
+        self.username = username
+        self.password = password
+        self.serial_number = serial_number
+        self.model = model
+        self.vendor = vendor
+        self.uptime = uptime
+        self.os_version = os_version
+
+device1 = network_device(ip_addr = '1.1.1.1', username=admin1, password=pwd1)
+device2 = network_device(ip_addr = '2.1.1.1', username=admin2, password=pwd2)
+device3 = network_device(ip_addr = '3.1.1.1', username=admin3, password=pwd3)
